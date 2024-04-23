@@ -1,0 +1,134 @@
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #614f4e;
+}
+
+/* Card styles */
+.carda {
+  width: 90%; /* Adjusted width for mobile */
+  max-width: 500px;
+  background: linear-gradient(100deg, #00feba, #5b548a);
+  margin: 20px auto; /* Centered margin with some space from top */
+  border-radius: 20px;
+  padding: 50px; /* Adjusted padding for mobile */
+  text-align: center;
+}
+
+/* Search styles */
+.search {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 20px; /* Adjusted padding for mobile */
+  height: 50px; /* Adjusted height for mobile */
+  border-radius: 25px; /* Adjusted border-radius for mobile */
+  flex: 1;
+  margin-right: 16px;
+  font-size: 16px; /* Adjusted font-size for mobile */
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 50px; /* Adjusted width for mobile */
+  height: 50px; /* Adjusted height for mobile */
+  cursor: pointer;
+}
+
+.search button img {
+  width: 16px;
+}
+
+/* Weather icon animation */
+@keyframes weatherIconAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.weather-icon {
+  width: 120px; /* Adjusted width for mobile */
+  margin-top: 20px; /* Adjusted margin-top for mobile */
+  animation: weatherIconAnimation 2s infinite;
+}
+
+/* Weather details styles */
+.weather h1 {
+  font-size: 40px; /* Adjusted font-size for mobile */
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 24px; /* Adjusted font-size for mobile */
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Adjusted padding for mobile */
+  margin-top: 30px; /* Adjusted margin-top for mobile */
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 14px; /* Adjusted font-size for mobile */
+}
+
+.col img {
+  width: 30px; /* Adjusted width for mobile */
+  margin-right: 5px; /* Adjusted margin-right for mobile */
+}
+
+.humidity,
+.Wind {
+  font-size: 20px; /* Adjusted font-size for mobile */
+  margin-top: -4px; /* Adjusted margin-top for mobile */
+}
+
+/* Error message styles */
+.error {
+  text-align: center;
+  margin-left: 10px;
+  font-size: 14px;
+  color: wheat;
+  margin-top: 10px;
+  display: none;
+}
+
+/* Temperature and city styles */
+.temp,
+.city,
+.col {
+  color: wheat;
+}
