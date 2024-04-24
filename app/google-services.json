@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "506376597143",
+    "project_id": "shopapp-6eebb",
+    "storage_bucket": "shopapp-6eebb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506376597143:android:1ea92067e8b46af68543d2",
+        "android_client_info": {
+          "package_name": "hr.algebra.shopapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZBmFdCnR1M5oc3IQ4kR50IIkv6sB5QQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
